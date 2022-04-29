@@ -1,0 +1,36 @@
+body { background-color: mistyrose ;}
+
+h1 {
+    color: darkorchid;
+}
+
+.articulo {background-color: rgb(208, 102, 218);
+           width: 600px;
+           margin: 0 auto;}
+
+span {background-color: aquamarine;}
+
+
+/* Vamos a centrar el parrafo del lorem */
+
+/* margin
+padding
+border */
+
+section {
+    width: 50%;
+    margin: 50px auto;
+    border-style: solid;
+    border-width: 4px;
+    padding: 20px
+}
+
+
+/* Seleccionar varios elementos
+
+También podes seleccionar varios elementos y aplicar una sola regla a todos ellos. Incluye varios selectores separados por comas (,). Por ejemplo: */
+
+section,li,h1 {
+  color: rgb(0, 132, 255);
+}
+
